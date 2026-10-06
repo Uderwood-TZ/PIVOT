@@ -1,0 +1,2 @@
+Module	Repeat	Status	ExitCode	Seconds	RunRoot
+HARD_PHYSICS_PRIOR	1	PASS	0	288.106245	D:\论文和项目\应力For Chaos\PIVOT\ablations\HARD_PHYSICS_PRIOR\runs\repeat_01
