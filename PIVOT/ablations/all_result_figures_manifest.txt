@@ -1,0 +1,12 @@
+Module	Status	Source
+CAUSAL_WEIGHTING	COMPLETE	results\oj_fv_pinn_hard_prior
+FINITE_VOLUME_STRUCTURE	COMPLETE	results\plain_pinn
+FOURIER_FEATURES	COMPLETE	results\oj_fv_pinn_hard_prior
+HARD_INITIAL_CONDITIONS	COMPLETE	results\oj_fv_pinn_hard_prior
+HARD_PHYSICS_PRIOR	COMPLETE	runs\repeat_01\results\pivot
+LBFGS_REFINEMENT	COMPLETE	runs\repeat_01\results\oj_fv_pinn_hard_prior
+OVERLAP_ACCELERATION	COMPLETE	runs\repeat_01\results\oj_fv_pinn_hard_prior
+OVERLAP_JOINT	COMPLETE	runs\repeat_01\results\oj_fv_pinn_hard_prior
+OVERLAP_STRESS	COMPLETE	runs\repeat_01\results\oj_fv_pinn_hard_prior
+RADIAL_MODAL_BASIS	COMPLETE	runs\repeat_01\results\oj_fv_pinn_hard_prior
+TIME_SLABS	COMPLETE	runs\repeat_01\results\oj_fv_pinn_hard_prior
