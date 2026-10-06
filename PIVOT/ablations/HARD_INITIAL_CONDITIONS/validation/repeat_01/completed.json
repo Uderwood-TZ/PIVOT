@@ -1,0 +1,19 @@
+{
+  "Module": "HARD_INITIAL_CONDITIONS",
+  "Repeat": 1,
+  "ExitCode": 0,
+  "Status": "PASS",
+  "RunRoot": "D:\\论文和项目\\应力For Chaos\\PINN_SphericalGradient\\ablations\\HARD_INITIAL_CONDITIONS\\validation\\repeat_01",
+  "Seconds": 5.261543500004336,
+  "Skipped": false,
+  "Command": [
+    "D:\\torch\\python.exe",
+    "D:\\论文和项目\\应力For Chaos\\PINN_SphericalGradient\\ablations\\HARD_INITIAL_CONDITIONS\\spherical_gradient_pinn.py",
+    "--mode",
+    "switch_test",
+    "--device",
+    "cuda",
+    "--output-root",
+    "D:\\论文和项目\\应力For Chaos\\PINN_SphericalGradient\\ablations\\HARD_INITIAL_CONDITIONS\\validation\\repeat_01"
+  ]
+}

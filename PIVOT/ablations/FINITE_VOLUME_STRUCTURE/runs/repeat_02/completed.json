@@ -1,0 +1,19 @@
+{
+  "Module": "FINITE_VOLUME_STRUCTURE",
+  "Repeat": 2,
+  "ExitCode": 0,
+  "Status": "PASS",
+  "RunRoot": "D:\\论文和项目\\应力For Chaos\\PINN_SphericalGradient\\ablations\\FINITE_VOLUME_STRUCTURE\\runs\\repeat_02",
+  "Seconds": 342.67900920001557,
+  "Skipped": false,
+  "Command": [
+    "D:\\torch\\python.exe",
+    "D:\\论文和项目\\应力For Chaos\\PINN_SphericalGradient\\ablations\\FINITE_VOLUME_STRUCTURE\\spherical_gradient_pinn.py",
+    "--mode",
+    "configured",
+    "--device",
+    "cuda",
+    "--output-root",
+    "D:\\论文和项目\\应力For Chaos\\PINN_SphericalGradient\\ablations\\FINITE_VOLUME_STRUCTURE\\runs\\repeat_02"
+  ]
+}

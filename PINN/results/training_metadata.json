@@ -1,0 +1,29 @@
+{
+  "TotalTrainingIterations": 3000,
+  "TotalTrainingSeconds": 370.6937165999552,
+  "MeanEpochSeconds": 0.12310293183297229,
+  "StdEpochSeconds": 0.015955451368859733,
+  "MedianEpochSeconds": 0.1246702499629464,
+  "MinEpochSeconds": 0.05382400000235066,
+  "MaxEpochSeconds": 0.34827890002634376,
+  "PeakTrainMemoryAllocatedBytes": 30169088,
+  "PeakTrainMemoryAllocatedMiB": 28.771484375,
+  "PeakTrainMemoryReservedBytes": 35651584,
+  "PeakTrainMemoryReservedMiB": 34.0,
+  "FinalTotalLoss": 0.002899382369297042,
+  "MemoryMetricSource": "torch_cuda",
+  "HP": {
+    "SEED": 20260810,
+    "TOTAL_TRAINING_ITERATIONS": 3000,
+    "LEARNING_RATE": 0.0001,
+    "NETWORK_WIDTH": 64,
+    "NETWORK_DEPTH": 3,
+    "COLLOCATION_BATCH": 64,
+    "EVALUATION_BATCH": 256,
+    "GRADIENT_CLIP_NORM": 100.0,
+    "DISPLACEMENT_SCALE": 0.0002,
+    "BOUNDARY_BATCH": 64,
+    "INITIAL_BATCH": 64,
+    "PRINT_EVERY": 100
+  }
+}

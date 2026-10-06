@@ -1,0 +1,19 @@
+{
+  "Module": "OVERLAP_STRESS",
+  "Repeat": 3,
+  "ExitCode": 0,
+  "Status": "PASS",
+  "RunRoot": "D:\\论文和项目\\应力For Chaos\\PINN_SphericalGradient\\ablations\\OVERLAP_STRESS\\runs\\repeat_03",
+  "Seconds": 127.24160359997768,
+  "Skipped": false,
+  "Command": [
+    "D:\\torch\\python.exe",
+    "D:\\论文和项目\\应力For Chaos\\PINN_SphericalGradient\\ablations\\OVERLAP_STRESS\\spherical_gradient_pinn.py",
+    "--mode",
+    "configured",
+    "--device",
+    "cuda",
+    "--output-root",
+    "D:\\论文和项目\\应力For Chaos\\PINN_SphericalGradient\\ablations\\OVERLAP_STRESS\\runs\\repeat_03"
+  ]
+}

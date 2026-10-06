@@ -1,0 +1,4 @@
+ReferenceGridN	241
+FittedOrderRelativeL2	2.2821011316849682e+00
+GridCounts	31,41,61,81,121,161,241
+TotalSolveSeconds	3.7532206300013058e+01

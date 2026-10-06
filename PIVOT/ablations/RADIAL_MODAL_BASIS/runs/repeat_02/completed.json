@@ -1,0 +1,19 @@
+{
+  "Module": "RADIAL_MODAL_BASIS",
+  "Repeat": 2,
+  "ExitCode": 0,
+  "Status": "PASS",
+  "RunRoot": "D:\\论文和项目\\应力For Chaos\\PINN_SphericalGradient\\ablations\\RADIAL_MODAL_BASIS\\runs\\repeat_02",
+  "Seconds": 126.28824999998324,
+  "Skipped": false,
+  "Command": [
+    "D:\\torch\\python.exe",
+    "D:\\论文和项目\\应力For Chaos\\PINN_SphericalGradient\\ablations\\RADIAL_MODAL_BASIS\\spherical_gradient_pinn.py",
+    "--mode",
+    "configured",
+    "--device",
+    "cuda",
+    "--output-root",
+    "D:\\论文和项目\\应力For Chaos\\PINN_SphericalGradient\\ablations\\RADIAL_MODAL_BASIS\\runs\\repeat_02"
+  ]
+}

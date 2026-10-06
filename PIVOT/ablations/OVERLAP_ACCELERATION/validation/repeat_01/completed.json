@@ -1,0 +1,19 @@
+{
+  "Module": "OVERLAP_ACCELERATION",
+  "Repeat": 1,
+  "ExitCode": 0,
+  "Status": "PASS",
+  "RunRoot": "D:\\论文和项目\\应力For Chaos\\PINN_SphericalGradient\\ablations\\OVERLAP_ACCELERATION\\validation\\repeat_01",
+  "Seconds": 4.518811000045389,
+  "Skipped": false,
+  "Command": [
+    "D:\\torch\\python.exe",
+    "D:\\论文和项目\\应力For Chaos\\PINN_SphericalGradient\\ablations\\OVERLAP_ACCELERATION\\spherical_gradient_pinn.py",
+    "--mode",
+    "switch_test",
+    "--device",
+    "cuda",
+    "--output-root",
+    "D:\\论文和项目\\应力For Chaos\\PINN_SphericalGradient\\ablations\\OVERLAP_ACCELERATION\\validation\\repeat_01"
+  ]
+}

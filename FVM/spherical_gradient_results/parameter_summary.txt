@@ -1,0 +1,26 @@
+Spherical finite-deformation visco-hyperelastic strain-gradient cavity model
+All quantities use SI units.
+
+a = 1.0000000000000000e-02 m
+b = 2.0000000000000000e-02 m
+rho0 = 1.0500000000000000e+03 kg/m^3
+mu = 2.0000000000000000e+05 Pa
+kappa = 8.0000000000000000e+05 Pa
+ell_g = 5.9999999999999995e-04 m
+g = 7.1999999999999995e-02 Pa m^2
+eta = 3.5000000000000000e+01 Pa s
+zeta = 8.0000000000000000e+01 Pa s
+gamma_g = 1.3999999999999999e+00
+p0 = 1.0132500000000000e+05 Pa
+DeltaP = 2.4000000000000000e+04 Pa
+Omega = 9.0000000000000000e+03 rad/s
+forcing_period = 6.9813170079773175e-04 s
+nRamp = 4.0000000000000000e+00 periods
+nPeriod = 3.0000000000000000e+01 periods
+tEnd = 2.0943951023931952e-02 s
+N_radial = 121
+N_time_output = 1201
+dr = 8.3333333333332829e-05 m
+minimum accepted lambda_r = 9.8490074572283881e-01
+minimum accepted lambda_theta = 9.8925690183031634e-01
+minimum accepted J = 9.8399989287451262e-01

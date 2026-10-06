@@ -1,0 +1,16 @@
+{
+  "TotalTrainingIterations": 3000,
+  "TotalTrainingSeconds": 6.5067974999547005,
+  "MeanEpochSeconds": 0.0012384276328181538,
+  "StdEpochSeconds": 0.003375483438847068,
+  "MedianEpochSeconds": 0.001179850019980222,
+  "MinEpochSeconds": 0.0007816999568603933,
+  "MaxEpochSeconds": 0.18571170000359416,
+  "FinalTotalLoss": 1e-23,
+  "PeakTrainMemoryAllocatedBytes": 570691584,
+  "PeakTrainMemoryReservedBytes": 570691584,
+  "MemoryMetricSource": "torch_cuda",
+  "PeakTrainMemoryAllocatedMiB": 544.25390625,
+  "PeakTrainMemoryReservedMiB": 544.25390625,
+  "PhysicsPriorSeconds": 2.672404499957338
+}

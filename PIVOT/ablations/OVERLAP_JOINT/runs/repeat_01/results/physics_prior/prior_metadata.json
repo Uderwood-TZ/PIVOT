@@ -1,0 +1,6 @@
+{
+  "PhysicsPriorSeconds": 2.58670499996515,
+  "PeakProcessMemoryBytes": 570548224,
+  "Integrator": "scipy.solve_ivp(BDF)",
+  "ReferenceDataUsedInSolve": false
+}
