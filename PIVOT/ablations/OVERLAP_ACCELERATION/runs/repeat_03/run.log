@@ -1,0 +1,4 @@
+configured variant: oj_fv_pinn_hard_prior; fixed iterations: 3000
+physics prior completed in 2.505s; max u L2=2.681323e-06
+evaluated oj_fv_pinn_hard_prior: 63 fields, 0.005s
+[0m
