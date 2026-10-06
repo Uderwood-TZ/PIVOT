@@ -1,0 +1,27 @@
+Algorithm	Basic residual-attention PINN
+NetworkCount	1
+AttentionTarget	Kinematic and momentum PDE residuals
+AttentionUpdate	Exponential memory of normalized absolute residual
+TotalTrainingIterations	3000
+TrainingIterationDefinition	One global Adam optimizer update
+TrainingIterationAssertion	len(loss_history) == TOTAL_TRAINING_ITERATIONS
+SharedHyperparameterCount	10
+SharedHyperparameterMismatchCount	0
+PhysicsParameterMatch	True
+KinematicResidualFormulaMatch	True
+MomentumPDEFormulaMatch	True
+TractionBoundaryFormulaMatch	True
+MicroBoundaryFormulaMatch	True
+ResidualAttentionCUDAUpdate	PASS
+FieldNameAndOrderMatch	36/36
+FieldNumericalDefinitionExactMatch	36/36
+CurveNameAndOrderMatch	27/27
+CurveNumericalDefinitionExactMatch	27/27
+ReferenceDataUsedForTraining	False
+ReferenceDataUsedForEvaluationOnly	True
+Colormap	jet
+PythonFileCount	1
+CommentTokenCount	0
+DocstringCount	0
+CompileTest	PASS
+CUDAForwardBackwardSmokeTest	PASS
