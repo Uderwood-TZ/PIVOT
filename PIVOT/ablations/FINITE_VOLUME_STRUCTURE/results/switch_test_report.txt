@@ -1,0 +1,13 @@
+Switch	Status	ResolvedVariant	TotalTrainingIterations	Budget
+ALL_OFF	PASS	plain_pinn	3000	{"adam": [3000], "lbfgs": [0], "joint": []}
+HARD_INITIAL_CONDITIONS	PASS	plain_pinn	3000	{"adam": [3000], "lbfgs": [0], "joint": []}
+FINITE_VOLUME_STRUCTURE	PASS	fv_pinn	3000	{"adam": [3000], "lbfgs": [0], "joint": []}
+TIME_SLABS	PASS	fv_pinn	3000	{"adam": [1500, 1500], "lbfgs": [0, 0], "joint": [0]}
+FOURIER_FEATURES	PASS	fv_pinn	3000	{"adam": [1500, 1500], "lbfgs": [0, 0], "joint": [0]}
+RADIAL_MODAL_BASIS	PASS	fv_pinn	3000	{"adam": [1500, 1500], "lbfgs": [0, 0], "joint": [0]}
+CAUSAL_WEIGHTING	PASS	fv_pinn	3000	{"adam": [1500, 1500], "lbfgs": [0, 0], "joint": [0]}
+OVERLAP_JOINT	PASS	oj_fv_pinn	3000	{"adam": [1200, 1200], "lbfgs": [0, 0], "joint": [600]}
+OVERLAP_ACCELERATION	PASS	oj_fv_pinn	3000	{"adam": [1200, 1200], "lbfgs": [0, 0], "joint": [600]}
+OVERLAP_STRESS	PASS	oj_fv_pinn	3000	{"adam": [1200, 1200], "lbfgs": [0, 0], "joint": [600]}
+LBFGS_REFINEMENT	PASS	fv_pinn	3000	{"adam": [1350, 1350], "lbfgs": [150, 150], "joint": [0]}
+HARD_PHYSICS_PRIOR	PASS	oj_fv_pinn_hard_prior	3000	{"adam": [3000], "lbfgs": [0], "joint": []}
