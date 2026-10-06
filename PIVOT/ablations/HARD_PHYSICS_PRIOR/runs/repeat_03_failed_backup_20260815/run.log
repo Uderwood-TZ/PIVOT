@@ -1,0 +1,17 @@
+configured variant: oj_fv_pinn; fixed iterations: 3000
+oj_fv_pinn slab 1/30 loss=1.379782e+03 max|u_end|=3.517839e-06
+oj_fv_pinn slab 2/30 loss=1.080550e+07 max|u_end|=1.386693e-05
+oj_fv_pinn slab 3/30 loss=5.260627e+07 max|u_end|=2.848658e-05
+oj_fv_pinn slab 4/30 loss=4.979410e+08 max|u_end|=7.071245e-05
+Traceback (most recent call last):
+  File "D:\论文和项目\应力For Chaos\PINN_SphericalGradient\ablations\HARD_PHYSICS_PRIOR\spherical_gradient_pinn.py", line 946, in <module>
+    if __name__=="__main__": main()
+                             ^^^^^^
+  File "D:\论文和项目\应力For Chaos\PINN_SphericalGradient\ablations\HARD_PHYSICS_PRIOR\spherical_gradient_pinn.py", line 931, in main
+    model,timing=(train(variant,args,root) if variant=="plain_pinn" else train_slabbed(variant,args,root))
+                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\论文和项目\应力For Chaos\PINN_SphericalGradient\ablations\HARD_PHYSICS_PRIOR\spherical_gradient_pinn.py", line 504, in train_slabbed
+    if not torch.isfinite(loss): raise RuntimeError(f"non-finite overlap loss at interface {si}")
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: non-finite overlap loss at interface 4
+[0m
